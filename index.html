@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Concert+One&family=Fraunces:opsz,wght@9..144,700&family=Josefin+Sans:ital,wght@1,700&family=Koulen&family=Lato:ital,wght@1,900&family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,700&family=Poppins:wght@400;800&family=Roboto:wght@700&family=Siemreap&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Tab Icon -->
+    <link rel="icon" href="./MyImage/logo.png">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.bundle.js"></script>
+    <!-- Jquery -->
+    <script src="jquery.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <!-- AOS - Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>eCodeGenius</title>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="container-fluid" style="height: 80px;">
+        <div class="navigation-ctn">
+            <a href="index.html" style=" text-decoration: none; font-family: 'Concert One', sans-serif; font-size: 40px; color: rgb(117, 195, 221); text-shadow: 2px 1px rgb(124, 206, 233);">eCodeGenius</a>
+        
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#thisiscourse">Courses</a></li>
+                    <li><a href="#thisisdoc">Docs</a></li>
+                    <li><a href="#enroll">Contact</a></li>
+                    <li><a href="#thisisMV">About</a></li>
+                </ul>
+           
+            <div class="nav-icon">
+                <a href="#thisiscourse"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="login"><a href="#enroll">Log in</a></div>
+                <div class="signup"><a href="#enroll">Sign up</a></div>
+                
+            </div>
+            <i class="fa-solid fa-bars" id="toggleButton"></i>
+        </div>
+    </header>
+    <!-- Section Intro -->
+    <section class="container-fluid bg-dark-subtle"  style="height: auto;">
+        <div class="container bg-dark-subtle" id="infocontain">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 style="font-family: 'Alfa Slab One', serif;">Master Coding Fast with Effective E-Learning.</h1>
+                    <!-- <p class="m-5 mt-0 pt-0 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque officiis odit deleniti eaque exercitationem aut odio perspiciatis iste natus vel?</p> -->
+                    <a href="#thisiscourse" class="btn fw-bold explore-btn" style="width: 160px; margin-top: 40px; margin-bottom: 40px; margin-left: 30px;">Explore Course <i class="fa-solid fa-arrow-right"></i></a> <br>
+                    <span class="socialmedia">
+                        <i data-aos="fade-right" data-aos-duration="1000" class="fa-brands fa-discord"></i>
+                        <i data-aos="fade-right" data-aos-duration="1000" class="fa-brands fa-github"></i>
+                        <i data-aos="fade-right" data-aos-duration="1000" class="fa-brands fa-linkedin"></i>
+                        <i data-aos="fade-right" data-aos-duration="1000" class="fa-brands fa-facebook"></i>
+                        <i data-aos="fade-right" data-aos-duration="1000" class="fa-brands fa-instagram"></i>
+                        <i data-aos="fade-right" data-aos-duration="1000" class="fa-brands fa-youtube"></i>
+                    </span>
+                </div>
+                <div class="col-lg-6 illusion d-flex justify-content-center align-content-center" data-aos="fade-left" data-aos-duration="1000">
+                    <!-- <img src="./MyImage/intro-pic.png" alt="" class="img-fluid mx-auto d-block" style="height: auto; object-fit: cover;"> -->
+                    <img src="./MyImage/juicy-girl-working-at-home.gif" alt="" style="height: auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Popular course section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1 class="m-5 ms-0 d-flex justify-content-center align-content-center" style="text-transform: uppercase; font-family: 'Roboto', sans-serif;">Popular Courses</h1>
+            </div>
+            <div class="row">
+                <div class="col-xxl-3 col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="course-ctn">
+                        <div class="course-img">
+                            <!-- <div class="course-popup-btn">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-regular fa-heart"></i>
+                            </div> -->
+                            <img src="./MyImage/python.png" alt="python image">
+                        </div>
+                        <div class="course-des text-white">
+                            <p class="h3 mt-2">Python</p>
+                            <p class="mx-3" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sequi adipisci ipsum, tempora dolor!</p>
+                        </div>
+                        <div class="price">
+                            <div style="max-width: 200px;display: flex; justify-content: space-between; align-items: center;">
+                                <h5 style="color: red; font-size: 16px; margin-right: 15px;"><del>30.00$</del></h5>
+                                <h3 style="color: green; font-size: 24px;">24.50$</h3>
+                            </div>
+                            <span style="max-width: 110px;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="btn-ctn" >
+                            <button class="btn" style="width: 100%; border-radius: 0px;">Buy now</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-xxl-3 col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="course-ctn">
+                        <div class="course-img">
+                            <img src="./MyImage/csharp.jpg" alt="c# image">
+                        </div>
+                        <div class="course-des text-white">
+                            <p class="h3 mt-2">C#</p>
+                            <p class="mx-3" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sequi adipisci ipsum, tempora dolor!</p>
+                        </div>
+                        <div class="price">
+                            <div style="max-width: 200px;display: flex; justify-content: space-between; align-items: center;">
+                                <h5 style="color: red; font-size: 16px; margin-right: 15px;"><del>25.00$</del></h5>
+                                <h3 style="color: green; font-size: 24px;">19.59$</h3>
+                            </div>
+                            <span style="max-width: 110px;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="btn-ctn" >
+                            <button class="btn" style="width: 100%; border-radius: 0px;">Buy now</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-xxl-3 col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="course-ctn">
+                        <div class="course-img">
+                            <img src="./MyImage/js.png" alt="js image">
+                        </div>
+                        <div class="course-des text-white">
+                            <p class="h3 mt-2">JavaScript</p>
+                            <p class="mx-3" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sequi adipisci ipsum, tempora dolor!</p>
+                        </div>
+                        <div class="price">
+                            <div style="max-width: 200px;display: flex; justify-content: space-between; align-items: center;">
+                                <h5 style="color: red; font-size: 16px; margin-right: 15px;"><del>25.00$</del></h5>
+                                <h3 style="color: green; font-size: 24px;">21.50$</h3>
+                            </div>
+                            <span style="max-width: 110px;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="btn-ctn" >
+                            <button class="btn" style="width: 100%; border-radius: 0px;">Buy now</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-xxl-3 col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="course-ctn">
+                        <div class="course-img">
+                            <img src="./MyImage/flutter.png" alt="flutter image">
+                        </div>
+                        <div class="course-des text-white">
+                            <p class="h3 mt-2">Flutter</p>
+                            <p class="mx-3" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero sequi adipisci ipsum, tempora dolor!</p>
+                        </div>
+                        <div class="price">
+                            <div style="max-width: 200px;display: flex; justify-content: space-between; align-items: center;">
+                                <!-- <h5 style="color: red; font-size: 16px; margin-right: 15px;"><del>25.00$</del></h5> -->
+                                <h3 style="color: green; font-size: 26px;">Free</h3>
+                            </div>
+                            <span style="max-width: 110px;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="btn-ctn" >
+                            <button class="btn" style="width: 100%; border-radius: 0px;">Start learn</button>
+                        </div>
+                    </div>
+                </div>    
+               <div class="d-flex justify-content-center align-content-center">
+                <a href="#thisiscourse" class="btn fw-bold viewallcourse" style="border: 1px dotted black;">View All Course <i class="fa-solid fa-arrow-right"></i></a>   
+               </div>
+            </div>
+           
+        </div>
+    </section>
+<hr>
+    <!-- ... -->
+    <section class="container-fluid py-lg-5 py-3" style="height: auto;">
+        <div class="container" style="height: auto;">
+            <div class="row">
+                <div class="col-lg-5 bg-white" style="height: auto; position: relative;" data-aos="zoom-in-right">
+                    <h1 class="ms-0 p-5 pb-0" style="font-family: 'Roboto', sans-serif; text-align: left; font-size: 35px;;">Learn, build, and thrive in the world of programming with expert guidance.</h1>
+                    <a href="#thisiscourse" class="btn fw-bold explore-btn">Explore Course <i class="fa-solid fa-arrow-right"></i></a>
+                    <!-- <img class="myimggg" src="./MyImage/undraw_icons_wdp4 .png" alt="image"> -->
+                </div>
+                <div class="col-lg-7 bg-white" data-aos="zoom-in-left">
+                    <div class="side-icon"">
+                        <div class="icon-contain" type="button" data-bs-toggle="collapse" data-bs-target="#hello" aria-expanded="false" aria-controls="hello">
+                            <div class="icon1">
+                                <!-- <i class="fa-regular fa-hourglass-half"></i> -->
+                                <img src="./MyImage/amination icon/hourglass.gif" alt="" style="object-fit: cover;">
+                            </div>
+                            <div class="icon-des">
+                                <p style="font-weight: bold;">Learn at your own pace.</p>
+                            </div>
+                            <div style="min-height: 20px;">
+                                <div class="collapse collapse-horizontal" id="hello">
+                                  <div class="card card-body bg-black" style="width: 100px;">
+                                    <img src="./MyImage/amination icon/one.gif" alt="" style="object-fit: cover;">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="icon-contain" type="button" data-bs-toggle="collapse" data-bs-target="#hello1" aria-expanded="false" aria-controls="hello1">
+                            <div class="icon1">
+                                <!-- <i class="fa-solid fa-list-check"></i> -->
+                                <img src="./MyImage/amination icon/listcheck.gif" alt="" style="width: 70%;">
+                            </div>
+                            <div class="icon-des">
+                                <p style="font-weight: bold;">Many tasks and projects to do.</p>
+                            </div>
+                            <div style="min-height: 20px;">
+                                <div class="collapse collapse-horizontal" id="hello1">
+                                  <div class="card card-body bg-black" style="width: 100px;">
+                                    <img src="./MyImage/amination icon/two.gif" alt="" style="width: 100%; object-fit: cover;">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="icon-contain" type="button" data-bs-toggle="collapse" data-bs-target="#hello2" aria-expanded="false" aria-controls="hello2">
+                            <div class="icon1">
+                                <!-- <i class="fa-solid fa-laptop-file"></i> -->
+                                <img src="./MyImage/amination icon/file-sharing.gif" alt="" style="width: 75%;">
+                            </div>
+                            <div class="icon-des">
+                                <p style="font-weight: bold;">Provide many resources.</p>
+                            </div>
+                            <div style="min-height: 20px;">
+                                <div class="collapse collapse-horizontal" id="hello2">
+                                  <div class="card card-body bg-black" style="width: 100px;">
+                                    <img src="./MyImage/amination icon/three.gif" alt="" style="width: 100%; object-fit: cover;">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="side-icon"">
+                        <div class="icon-contain" type="button" data-bs-toggle="collapse" data-bs-target="#hello3" aria-expanded="false" aria-controls="hello3">
+                            <div class="icon1">
+                                <!-- <i class="fa-solid fa-globe"></i> -->
+                                <img src="./MyImage/amination icon/worldwide-shipping.gif" alt="">
+                            </div>
+                            <div class="icon-des">
+                                <p style="font-weight: bold;">Share and explore new things.</p>
+                            </div>
+                            <div style="min-height: 20px;">
+                                <div class="collapse collapse-horizontal" id="hello3">
+                                  <div class="card card-body bg-black" style="width: 100px;">
+                                    <img src="./MyImage/amination icon/four.gif" alt="" style="width: 100%; object-fit: cover;">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="icon-contain" type="button" data-bs-toggle="collapse" data-bs-target="#hello4" aria-expanded="false" aria-controls="hello4">
+                            <div class="icon1">
+                                <!-- <i class="fa-solid fa-briefcase"></i> -->
+                                <img src="./MyImage/amination icon/chat.gif" alt="">
+                            </div>
+                            <div class="icon-des">
+                                <p style="font-weight: bold;">Discuss and make connection.</p>
+                            </div>
+                            <div style="min-height: 20px;">
+                                <div class="collapse collapse-horizontal" id="hello4">
+                                  <div class="card card-body bg-black" style="width: 100px;">
+                                    <img src="./MyImage/amination icon/five.gif" alt="" style="object-fit: cover;">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="icon-contain" type="button" data-bs-toggle="collapse" data-bs-target="#hello5" aria-expanded="false" aria-controls="hello5">
+                            <div class="icon1">
+                                <!-- <i class="fa-regular fa-comments"></i> -->
+                                <img src="./MyImage/amination icon/workiing.gif" alt="">
+                            </div>
+                            <div class="icon-des">
+                                <p style="font-weight: bold;">Getting job with high salary.</p>
+                            </div>
+                            <div style="min-height: 20px;">
+                                <div class="collapse collapse-horizontal" id="hello5">
+                                  <div class="card card-body bg-black" style="width: 100px;">
+                                    <img src="./MyImage/amination icon/six.gif" alt="" style="width: 100%; object-fit: cover;">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+<hr>
+    <!-- Slide -->
+    <section style="margin-top: 40px;">
+        <div id="my-slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#my-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#my-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#my-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="./MyImage/slide1.jpg" class="d-block w-100 c-img" alt="slide1 image">
+                <div class="carousel-caption d-sm-block d-md-block">
+                    <p class="slider-text";>Build Your Career With Us</p>
+                    <p class="slider-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus molestiae maxime quidem vero tempora?</p>
+                </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="./MyImage/slide2.jpg" class="d-block w-100 c-img" alt="slide2 image">
+                <div class="carousel-caption d-sm-block d-md-block">
+                    <p class="slider-text";>Build Your Career With Us</p>
+                    <p class="slider-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus molestiae maxime quidem vero tempora?</p>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="./MyImage/slide3.jpg" class="d-block w-100 c-img" alt="slide3 image">
+                <div class="carousel-caption d-sm-block d-md-block">
+                    <p class="slider-text">Build Your Career With Us</p>
+                    <p class="slider-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus molestiae maxime quidem vero tempora?</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#my-slider" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#my-slider" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+<hr style="margin-top: 40px; margin-bottom: 40px;;" id="thisisMV">
+    <section>
+        <div class="container">
+            <div class="row m-5">
+                <h1 class="d-flex justify-content-center align-content-center" style="font-family: 'Roboto', sans-serif;">Mission & Vision</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-9" style="height: auto;">
+                    <div class="row">
+                        <h2 class="ms-0" style="font-family: 'Roboto', sans-serif;">Mission</h2>
+                        <div class="col-sm-7 d-flex justify-content-center align-items-center" style="background-color: rgb(33,37,41); height: 250px;" data-aos="flip-up">
+                            <p class="p-5" style="color: white; font-weight: 700;">"Empowering coders worldwide through innovative e-learning experiences for continuous growth and success in the tech industry."</p>
+                        </div>
+                        <div class="col-sm-5 d-flex justify-content-center align-content-center" style="height: auto;">
+                            <img src="./MyImage/florid-support-service.gif" alt="" style="width: 75%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h2 class="ms-0" style="font-family: 'Roboto', sans-serif; margin-top: 40px;">Vision</h2>
+                        <div class="col-sm-7 d-flex justify-content-center align-items-center" style="background-color: rgb(33,37,41); height: 250px; margin-bottom: 40px;" data-aos="flip-up">
+                            <p class="p-5" style="color: white; font-weight: 700;">"To pioneer accessible and cutting-edge coding education, cultivating a global community of adaptable and skilled individuals shaping the future of technology."</p>
+                        </div>
+                        <div class="col-sm-5 d-flex justify-content-center align-content-center" style="height: auto;">
+                            <img src="./MyImage/coworking-male-programmer-writing-program-code.gif" alt="" style="width: 70%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="height: auto; border-left: 1px solid rgba(0, 0, 0, 0.386);">
+                    <div class="row">
+                        <h2 class="ms-0" style="font-family: 'Roboto', sans-serif;">About us</h2>
+                        <ul class="aboutmv">
+                            <li><a class="btn btn-dark" href="#thisisMV" data-aos="fade-left" data-aos-duration="1000">Mission</a></li>
+                            <li><a class="btn btn-dark" href="#thisisMV" data-aos="fade-left" data-aos-duration="900">Vision</a></li>
+                            <li><a class="btn btn-dark" href="#thisiscourse" data-aos="fade-left" data-aos-duration="800">Course</a></li>
+                            <li><a class="btn btn-dark" href="#mycontact" data-aos="fade-left" data-aos-duration="700">Contact</a></li>
+                            <li><a class="btn btn-dark" href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" data-aos="fade-left" data-aos-duration="600">About</a></li>
+                            <div style="min-height: 120px;">
+                                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                  <div class="card card-body" style="width: 300px;">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laudantium repellendus ad temporibus perspiciatis soluta! <a href="#thisisProgress">see more...</a>
+                                  </div>
+                                </div>
+                              </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="margin-top: 40px; margin-bottom: 40px;">
+    
+ <!-- All course row1-->
+    
+<section class="container-fluid bg-black" style="height: auto;" id="thisiscourse">
+    <div class="container" style="padding-top: 40px;">
+        <h1 class="d-flex justify-content-center align-content-center" style="text-transform: uppercase; font-family: 'Roboto', sans-serif; color: white;">Courses</h1>
+    </div>
+    <section class="container mt-5 d-flex justify-content-center align-content-center" style="height: auto">
+        <div id="mywrapper" class="carousel slide" data-aos="fade-right" data-aos-duration="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/flutter.png" alt="flutterImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Flutter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">32.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/angular.png" alt="angularImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Angular</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">19.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/htmlcss.png" alt="htmlcssImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">HTML & CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">18.99$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/bootstrap.png" alt="bootstrapImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/springboot.jpg" alt="springboot">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Spring Boot</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">22.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/laravel.png" alt="laravelImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Laravel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">35.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/java.png" alt="javaImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Java</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">28.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/kotlin.jpg" alt="kotlinImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Kotlin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">30.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/python.png" alt="pythonImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mywrapper" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon pbtn" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mywrapper" data-bs-slide="next">
+              <span class="carousel-control-next-icon nbtn" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+<!-- Wrap all course into one box row1-->
+
+            <div id="mywrapper1" class="carousel slide">
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-aos="fade-right" data-aos-duration="1000">
+                     <div class="row">
+                        <div class="col-md-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">22.00$</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/laravel.png" alt="laravelImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Laravel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/nextjs.png" alt="nextjs">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star-half-stroke"></i>
+                                         <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Next.js</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/mongodb.png" alt="mongodbImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">19.00$</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/htmlcss.png" alt="htmlcssImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">HTML & CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">29.00$</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/php.jpg" alt="phpImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">PHP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mywrapper1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon pbtn1" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mywrapper1" data-bs-slide="next">
+                <span class="carousel-control-next-icon nbtn1" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+
+
+ <!-- All course row2-->
+
+    <section class="container mt-5 d-flex justify-content-center align-content-center" style="height: auto;">
+        <div id="mywrapper_one" class="carousel slide" style="margin-bottom: 50px;" data-aos="fade-left" data-aos-duration="1000">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/nextjs.png" alt="nextjsImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Next.js</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">28.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/reactjs.png" alt="reactjsImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">React</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/mongodb.png" alt="mongodbImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">MongoDB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">29.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/php.jpg" alt="phpImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">PHP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">19.50$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/sql.jpeg" alt="sqlImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/nodejs.png" alt="nodejsImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Node.js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">22.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/vuejs.jpeg" alt="vuejsImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Vue.js</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">19.50$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/tailwindcss.png" alt="tailwindcssImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Tailwind</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mywrapper">
+                            <div class="myimgctn">
+                                <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">25.00$</h3>
+                                <div class="iconn" style="position: absolute;">
+                                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                </div>
+                                <div class="popupbtn">
+                                    <a href="" class="btn">Learn more</a>
+                                </div>
+                                <img src="./MyImage/js.png" alt="jsImg">
+                                <span style="position: absolute;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="mydesctn">
+                                <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mywrapper_one" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon pbtn" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mywrapper_one" data-bs-slide="next">
+            <span class="carousel-control-next-icon nbtn" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    <!-- Wrap all course into one box row2-->
+
+            <div id="mywrapper_two" class="carousel slide" style="margin-bottom: 30px;">
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/nodejs.png" alt="nodejsImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Node.js</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">28.00$</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/kotlin.jpg" alt="kotlinImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Kotlin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="bg-success fs-5 d-flex justify-content-center align-items-center" style="border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">Free</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/springboot.jpg" alt="springbootImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Spring Boot</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">35.00$</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/java.png" alt="javaImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">Java</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mywrapper1">
+                                <div class="myimgctn1">
+                                    <h3 class="fs-5 d-flex justify-content-center align-items-center" style="background-color: red; border-bottom-right-radius: 8px; border-top-left-radius: 8px; color: rgb(0, 0, 0); font-size: 26px; position: absolute; width: 80px; height: 40px;">19.59$</h3>
+                                    <div class="iconn1" style="position: absolute;">
+                                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                                    </div>
+                                    <div class="popupbtn1">
+                                        <a href="" class="btn">Learn more</a>
+                                    </div>
+                                    <img src="./MyImage/csharp.jpg" alt="csharpImg">
+                                    <span style="position: absolute;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="mydesctn1">
+                                    <p class="h3 mt-2 fs-4 fw-bold" style="text-align: center; color: white;">C#</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mywrapper_two" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon pbtn1" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mywrapper_two" data-bs-slide="next">
+                <span class="carousel-control-next-icon nbtn1" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+</section>
+
+<!-- Marquee Section   --> 
+    <section>
+        <div class="container-fluid bg-black">
+            <div class="row marquee-ctn">
+                
+                    <marquee scrollAmount="3s" class="marquee">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-brands fa-vuejs"></i>
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-linux"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-php"></i>
+                        <i class="fa-solid fa-database"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-brands fa-vuejs"></i>
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-linux"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-php"></i>
+                        <i class="fa-solid fa-database"></i>
+                    </marquee>
+                 
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation -->
+<section class="container" style="height: auto;" id="thisisdoc">
+    <div class="row">
+    <h1 class="d-flex justify-content-center align-content-center" style="text-transform: uppercase; font-family: 'Roboto', sans-serif; color: rgb(0, 0, 0); margin-top: 40px; margin-bottom: 40px;">Documents</h1>
+    <div class="col-md-6" data-aos="fade-up-right">
+        <div id="mydoc">
+            <div class="card">
+              <div class="btn card-header d-flex justify-content-between align-content-center" style="font-size: 22px; font-weight: 600;" data-bs-toggle="collapse" href="#collapseOne">
+                <a class="text-decoration-none text-black">What is Network ?</a>
+                <div><i class="fa-solid fa-angle-down"></i></div>
+              </div>
+              <div id="collapseOne" class="collapse" data-bs-parent="#mydoc">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum esse fugit nesciunt nisi aspernatur error sit, at repellat soluta in nihil facere ad voluptatibus, similique explicabo voluptates deserunt dolores ea?
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="collapsed btn card-header d-flex justify-content-between align-content-center" style="font-size: 22px; font-weight: 600;" data-bs-toggle="collapse" href="#collapseTwo">
+                <a class="text-decoration-none text-black">Learn Git & GitHub.</a>
+                 <div><i class="fa-solid fa-angle-down"></i></div>
+              </div>
+              <div id="collapseTwo" class="collapse" data-bs-parent="#mydoc">
+                <div class="card-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis obcaecati tempore culpa dolor placeat ratione porro, est consequuntur aperiam non molestiae optio error deserunt laboriosam earum at similique alias! Sint.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="collapsed btn card-header d-flex justify-content-between align-content-center" style="font-size: 22px; font-weight: 600;" data-bs-toggle="collapse" href="#collapseThree">
+                <a class="text-decoration-none text-black">What is IoT ?</a>
+                 <div><i class="fa-solid fa-angle-down"></i></div>
+              </div>
+              <div id="collapseThree" class="collapse" data-bs-parent="#mydoc">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ex et, voluptas totam sed eius quas perferendis, veniam eveniet quia ab atque, assumenda rem repellat sint modi recusandae reprehenderit doloribus.
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-6" data-aos="fade-up-left">
+        <div id="mydocOne">
+            <div class="card">
+              <div class="btn card-header d-flex justify-content-between align-content-center" style="font-size: 22px; font-weight: 600;" data-bs-toggle="collapse" href="#collapseFour">
+                <a class="text-decoration-none text-black">What is DNS ?</a>
+                 <div><i class="fa-solid fa-angle-down"></i></div>
+              </div>
+              <div id="collapseFour" class="collapse" data-bs-parent="#mydocOne">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum esse fugit nesciunt nisi aspernatur error sit, at repellat soluta in nihil facere ad voluptatibus, similique explicabo voluptates deserunt dolores ea?
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="collapsed btn card-header d-flex justify-content-between align-content-center" style="font-size: 22px; font-weight: 600;" data-bs-toggle="collapse" href="#collapseFive">
+                <a class="text-decoration-none text-black">How the Internet work ?</a>
+                 <div><i class="fa-solid fa-angle-down"></i></div>
+              </div>
+              <div id="collapseFive" class="collapse" data-bs-parent="#mydocOne">
+                <div class="card-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis obcaecati tempore culpa dolor placeat ratione porro, est consequuntur aperiam non molestiae optio error deserunt laboriosam earum at similique alias! Sint.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="collapsed btn card-header d-flex justify-content-between align-content-center" style="font-size: 22px; font-weight: 600;" data-bs-toggle="collapse" href="#collapseSix">
+                <a class="text-decoration-none text-black">Introduction to Bootstrap5.</a>
+                 <div><i class="fa-solid fa-angle-down"></i></div>
+              </div>
+              <div id="collapseSix" class="collapse" data-bs-parent="#mydocOne">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ex et, voluptas totam sed eius quas perferendis, veniam eveniet quia ab atque, assumenda rem repellat sint modi recusandae reprehenderit doloribus.
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+</div>
+        <a href="#thisisdoc" class="btn d-flex justify-content-center align-content-center" style="margin: 20px; font-size: 22px;">
+            See more
+            <div style="margin-left: 8px; margin-top: 2px;"><i class="fa-solid fa-angle-down"></i></div>
+        </a>
+</section>
+
+
+
+    <!-- Progress -->
+   
+    <section class="container" id="thisisProgress" style="margin-bottom: 80px;">
+        <div>
+            <h2 style="margin: 60px 60px 60px 0px;">Average of All Students Enrolled: </h2>
+        </div>
+       <div class="row">
+        <div class="col-xs-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <p style="font-weight: 500; font-size: 22px; margin: 0px 0px 20px 0px;">Completed tasks: </p>
+            <div class="progress">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 85%;">85%</div>
+            </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-xs-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <p style="font-weight: 500; font-size: 22px; margin: 20px 0px 20px 0px;">Getting job: </p>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 70%;">70%</div>
+            </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-xs-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <p style="font-weight: 500; font-size: 22px; margin: 20px 0px 20px 0px;">Women enrolled: </p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%; background-color: rgb(255, 170, 184);">45%</div>
+            </div>
+        </div>
+       </div>
+    </section>
+   
+    <!-- Footer with enroll -->
+    <footer class="container-fluid bg-black" id="enroll">
+        <div class="container" style="height: auto;">
+            <div class="row">
+                <div class="col-xs-12 myenroll" data-aos="flip-down" data-aos-duration="800">
+                    <form action="">
+                        <h1 style="font-family: 'Roboto', sans-serif;">Enroll </h1>
+                        <div>
+                            <label for="">Username</label> <br>
+                            <input type="text" placeholder="Username" value="">
+                        </div>
+                        <div>
+                            <label for="Email">Email</label> <br>
+                         <input type="text" placeholder="Email">
+                        </div>
+                        <div>
+                            <label for="">Password</label> <br>
+                            <input type="text" placeholder="Password">
+                         </div>
+                        <div>
+                            <label for="">Retype Password</label> <br>
+                         <input type="text" placeholder="Retype Password">
+                        </div>
+                        <div class="d-flex justify-content-between align-content-center" style="margin-top: 20px;">
+                            <button class="btn btn-dark" style="width: 180px;">Sign up</button>
+                            <button class="btn btn-dark" style="width: 180px;">Log in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="con-xs-12" style="border-bottom:  1px solid rgb(255, 255, 255); margin:30px 0;">
+                    <div class="d-flex justify-content-center align-content-center" style="margin:  0px 0px 20px 0px; font-weight: bold; color: white;">Find us on:</div>
+                    <span class="socialmedia d-flex justify-content-center align-content-center" style="margin-bottom: 20px; position: relative;" id="mycontact"> 
+                        <i data-aos="fade-right" style="color: rgb(88,101,242);" class="fa-brands fa-discord"></i>
+                        <i data-aos="fade-right" style="color: white;" class="fa-brands fa-github"></i>
+                        <i data-aos="fade-right" style="color: rgb(10,102,194);" class="fa-brands fa-linkedin"></i>
+                        <i data-aos="fade-left" style="color: rgb(8,102,255);" class="fa-brands fa-facebook"></i>
+                        <i data-aos="fade-left" style="color: rgb(224,32,216);" class="fa-brands fa-instagram"></i>
+                        <i data-aos="fade-left" style="color: rgb(255,0,0);" class="fa-brands fa-youtube"></i>
+                        <div class="d-flex justify-content-end align-content-center myscrollup" style="position: absolute; font-size: 60px; color: white;">
+                            <a href="#" style="color: white;"><i class="fa-solid fa-angles-up"></i></a>
+                        </div>
+                    </span>
+                </div>
+                <div class="d-flex justify-content-center align-content-between rightt">
+               &copy2023 eCodeGenius, All Right Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    AOS.init();
+</script>
+</html>
+
+

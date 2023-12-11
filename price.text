@@ -1,0 +1,36 @@
+
+
+
++ PRICE OF COURSE
+    -python: 30.00$ -> 24.50$ | 2 | rate 5 
+    -c#    : 25.00$ -> 19.59$ | 2 | rate 3.5 
+    -js    : 25.00$ -> 21.50$ | 2 | rate 4 
+    -angular: 32.00$  | 1 | rate 4.5 
+    -bootstrap: 18.99$ | 1 | rate 3.5 
+    -java  : 35.00$ | 2 | rate 3.5 
+    -kotlin: 28.00$  | 2 | rate 2.5 
+    -laravel: 22.00$ | 2 | rate 4 
+    -php  : 29.00$ | 2 | rate 4 
+    -reactjs: 28.00$ | 1 | rate 4.5 
+    -sql  : 19.50$ | 1 | rate 2.5 
+    -tailwind: 19.50$ | 1 | rate 3 
+    -vuejs : 22.00$ | 1 | rate 5 
+    -html css : 18.00$ | 2 | rate 4 
+
+
++FREE COURSE
+    -Flutter | 2 | rate 3.5 
+    -spring boot | 2 | rate 5 
+    -mongodb | 2  | rate 3 
+    -nodejs | 2 | rate 3 
+    -nextjs | 2 | rate 3.5 
+
+------------------------------------------------------
+
++ link to section
+
+couese id :  thisiscourse
+mission and vission id : thisisMV
+progress id : thisisProgress
+documents id : thisisdoc
+span at footer id: mycontact
