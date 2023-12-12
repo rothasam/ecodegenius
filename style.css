@@ -482,6 +482,14 @@ body{
         font-size: 16px;
     }
 }
+@media (max-width: 578px){
+    .slider-text{
+        font-size: 21px; 
+    }
+    .slider-text1{
+        font-size: 13px;
+    }
+}
 
 
 /* Mission & Vision */
