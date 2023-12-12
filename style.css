@@ -10,7 +10,7 @@
     --course-des-height: 150px;
 }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* Header  Navigation*/
@@ -21,6 +21,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.brandname{
+    text-decoration: none; font-family: 'Concert One', sans-serif; 
+    font-size: 40px; 
+    color: rgb(117, 195, 221); 
+    text-shadow: 2px 1px rgb(124, 206, 233);
 }
 .nav-list{
     display: flex;
@@ -113,7 +119,6 @@ body{
     }
     .nav-list li a{
         color: rgb(0, 0, 0);
-
     }
     .nav-list li{
         width: 100%;
@@ -125,7 +130,6 @@ body{
     .nav-list.active{ 
         display: block;
     }
-    
 }
 
 
@@ -223,6 +227,17 @@ body{
     #infocontain h1{
         font-size: 20px;
      }
+     .brandname{
+        font-size: 35px;
+     }
+}
+@media (max-width: 576px){
+    .socialmedia i{
+        font-size: 30px;
+    }
+    .brandname{
+        font-size: 30px;
+     }    
 }
 
 
@@ -243,7 +258,6 @@ body{
 .course-ctn .course-img{
     width: 100%;
     height: 180px;
-    /* position: relative; */
 }
 /* .course-img .course-popup-btn{
     position: absolute;
@@ -785,7 +799,7 @@ section #mywrapper_two{
 }
 
 /* Marquee Section */
-.marquee{
+/* .marquee{
     width: 100%;
     height: 80px;
     display: flex;
@@ -798,14 +812,14 @@ section #mywrapper_two{
     letter-spacing: 100px;
     opacity: 0.6;
 }
-/* @keyframes slide{
+@keyframes slide{
     from{
         transform: translateX(50%);
     }
     to{
         transform: translateX(-50%);
     }
-}*/
+}
 .marquee{
     white-space: nowrap;
     animation: 25s slide infinite linear;
@@ -815,7 +829,7 @@ section #mywrapper_two{
 }
 .marquee i:hover{
     opacity: 1;
-} 
+}  */
 
 
 /* Footer */
@@ -849,6 +863,13 @@ section #mywrapper_two{
     border: 0px;
     height: 50px;
 }
+@media (max-width: 500px){
+    .myenroll form input{
+        font-size: 15px;
+        width: 320px;
+        height: 37px;
+    }
+}
 .rightt{
     color: rgba(255, 255, 255, 0.473);
     margin-bottom: 40px;
@@ -857,53 +878,15 @@ section #mywrapper_two{
     color: white;
 }
 .myscrollup{
-    margin-left: 1700px;
+    font-size: 60px; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 22px;
 }
-@media (max-width: 1800px){
-    .myscrollup{
-        margin-left: 1500px;
-    }
-}
-@media (max-width: 1600px){
-    .myscrollup{
-        margin-left: 1400px;
-        margin-top: 50px;
-    }
-}
-@media (max-width: 1500px){
-    .myscrollup{
-        margin-left: 1200px;
-        margin-top: -40px;
-    }
-}
-@media (max-width: 1300px){
-    .myscrollup{
-        margin-left: 1000px;
-        margin-top: -50px;
-    }
-}
-@media (max-width: 1080px){
-    .myscrollup{
-        margin-left: 800px;
-        margin-top: -30px; 
-    }
-}
-@media (max-width: 872px){
-    .myscrollup{
-        margin-left: 700px;
-        margin-top: -30px;
-    }
-}
-@media (max-width: 764px){
-    .myscrollup{
-        margin-left: 500px;
-        margin-top: -30px;
-    }
-}
-@media (max-width: 625px){
-    .myscrollup a i{
-       display: none;
-    }
+.myscrollup a{
+    font-size: 40px;
 }
 .myscrollup:hover a i{
     color: var(--main-color);
