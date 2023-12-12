@@ -325,6 +325,21 @@ body{
     float: left;
    
 }
+.mytxt{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+@media (max-width: 768px){
+    .mytxt{
+        font-size: 25px;
+    }
+}
+@media (max-width: 576px){
+    .mytxt{
+        font-size: 20px;
+    }
+}
 .explore-btn{
     background-color: var(--main-color);
     margin-left: 50px; 
@@ -372,6 +387,27 @@ body{
 }
 .icon-contain:hover .icon-des p{
      color: var(--main-color);
+}
+.icon-contain .icon-des p{
+    font-size: 16px;
+}
+@media (max-width: 769px){
+    .myimggg{
+        width: 100px; 
+        height: 50px; 
+    }
+    .icon-contain .icon-des p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 578px){
+    .myimggg{
+        width: 80px; 
+        height: 40px; 
+    }
+    .icon-contain .icon-des p{
+        font-size: 12px;
+    }
 }
 .icon-contain:hover{
     transform: scale(110%,115%);
