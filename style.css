@@ -9,6 +9,9 @@
     /* --menu-font-size: 22px; */
     --course-des-height: 150px;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     overflow-x: hidden;
 }
