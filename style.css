@@ -10,7 +10,7 @@
     --course-des-height: 150px;
 }
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* Header  Navigation*/
